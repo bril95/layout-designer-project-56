@@ -1,0 +1,36 @@
+@import 'variables';
+@import 'general';
+@import './pages/header';
+@import './pages/pracing';
+
+// Desktop
+
+h1 {
+    font-size: 60px;
+    line-height: 90px;
+    font-weight: $font-weight-bold;
+    text-transform: uppercase;
+    color: $color-title;
+}
+
+h2 {
+    font-size: 38px;
+    line-height: 57px;
+    font-weight: $font-weight-bold;
+    text-transform: uppercase;
+    color: $color-title;
+}
+
+// Mobile
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    h2 {
+        font-size: 18px;
+        line-height: 27px;
+    }
+}

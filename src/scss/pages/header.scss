@@ -1,0 +1,131 @@
+@import '../variables.scss';
+
+.page-description {
+  background-image: url('../images/banner.png');
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.page-description-content {
+  max-width: 1200px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  padding-top: 25px;
+}
+
+.music-box {
+  display: flex;
+  align-items: center;
+}
+
+.music-box-logo {
+  width: 24px;
+  height: 24px;
+}
+
+.music-box-text {
+  padding-left: 16px;
+}
+
+.menu {
+  display: flex;
+  padding-left: 90px;
+
+    li {
+      list-style-type: none;
+      padding-right: 24px;
+
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+}
+
+.search-field {
+  margin-left: 450px;
+}
+
+.search {
+  color: #757575;
+  font-size: 13.3px;
+  height: 25px;
+  width: 248px;
+  background-color: $color-dark;
+  border-radius: 50px;
+  border: 0 solid transparent;
+  padding-left: 10px;
+}
+
+.description {
+  margin-top: 30px;
+  margin-bottom: 17px;
+}
+
+.form-field {
+  max-width: 570px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-field-input {
+  display: flex;
+  justify-content: space-between;
+  max-width: 570px;
+}
+
+.form {
+  width: 270px;
+  min-height: 50px;
+  padding-left: 30px;
+  margin-bottom: 1.5rem;
+  border: 2px solid $color-text;
+  border-radius: 3px;
+  background-color: transparent;
+  box-sizing: border-box;
+
+  &::placeholder {
+    color: $color-title;
+    opacity: 1;
+  }
+}
+
+.form-btn {
+  background-color: $color-green;
+  height: 57px;
+  border: 0 solid transparent;
+  border-radius: 5px;
+  color: $color-title;
+}
+
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .menu {
+    flex-direction: column;
+  }
+}

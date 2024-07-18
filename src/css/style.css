@@ -1,3 +1,244 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #CACACA;
+  background-color: #08020D;
+  margin: 0;
+}
 
+h1, h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+ul {
+  margin: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+.page-description {
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.page-description-content {
+  max-width: 1200px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  padding-top: 25px;
+}
+
+.music-box {
+  display: flex;
+  align-items: center;
+}
+
+.music-box-logo {
+  width: 24px;
+  height: 24px;
+}
+
+.music-box-text {
+  padding-left: 16px;
+}
+
+.menu {
+  display: flex;
+  padding-left: 90px;
+}
+.menu li {
+  list-style-type: none;
+  padding-right: 24px;
+}
+.menu li:last-child {
+  padding-right: 0;
+}
+
+.search-field {
+  margin-left: 450px;
+}
+
+.search {
+  color: #757575;
+  font-size: 13.3px;
+  height: 25px;
+  width: 248px;
+  background-color: #3C3B3D;
+  border-radius: 50px;
+  border: 0 solid transparent;
+  padding-left: 10px;
+}
+
+.description {
+  margin-top: 30px;
+  margin-bottom: 17px;
+}
+
+.form-field {
+  max-width: 570px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-field-input {
+  display: flex;
+  justify-content: space-between;
+  max-width: 570px;
+}
+
+.form {
+  width: 270px;
+  min-height: 50px;
+  padding-left: 30px;
+  margin-bottom: 1.5rem;
+  border: 2px solid #CACACA;
+  border-radius: 3px;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+.form::placeholder {
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.form-btn {
+  background-color: #34C176;
+  height: 57px;
+  border: 0 solid transparent;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+  .menu {
+    flex-direction: column;
+  }
+}
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
