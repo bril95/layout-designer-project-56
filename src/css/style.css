@@ -16,24 +16,6 @@
   font-weight: 700;
   font-style: normal;
 }
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-}
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -44,17 +26,19 @@ body {
 }
 
 h1, h2 {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+h3 {
+  font-weight: 400;
+  color: #FFFFFF;
   margin: 0;
 }
 
 p {
   margin: 0;
-}
-
-.text-uppercase {
-  text-transform: uppercase;
 }
 
 ul {
@@ -72,24 +56,6 @@ ul {
   border: 0;
 }
 
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-}
 .page-description {
   background-image: url("../images/banner.png");
   background-position: center;
@@ -136,6 +102,7 @@ ul {
 
 .music-box-text {
   padding-left: 16px;
+  text-transform: uppercase;
 }
 
 .menu {
@@ -145,6 +112,7 @@ ul {
 .menu li {
   list-style-type: none;
   padding-right: 24px;
+  text-transform: uppercase;
 }
 .menu li:last-child {
   padding-right: 0;
@@ -163,6 +131,7 @@ ul {
   border-radius: 50px;
   border: 0 solid transparent;
   padding-left: 10px;
+  text-transform: uppercase;
 }
 
 .description {
@@ -198,12 +167,15 @@ ul {
   opacity: 1;
 }
 
-.form-btn {
+.btn-form {
+  border: 1px solid #CACACA;
+  border-radius: 5px;
+  color: #FFFFFF;
+  background-color: transparent;
+  text-transform: uppercase;
   background-color: #34C176;
   height: 57px;
   border: 0 solid transparent;
-  border-radius: 5px;
-  color: #FFFFFF;
 }
 
 @media (max-width: 768px) {
@@ -214,6 +186,99 @@ ul {
     flex-direction: column;
   }
 }
+.page-pricing {
+  padding-top: 100px;
+}
+
+.page-pricing-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing-header {
+  margin-bottom: 50px;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 615px;
+  width: calc((100% - 100px) / 3);
+  border-radius: 1rem;
+  box-sizing: border-box;
+  padding: 24px 1.5rem 64px;
+}
+.pricing-item .subscribe-title {
+  font-size: 24px;
+  margin-bottom: 200px;
+  text-transform: uppercase;
+}
+.pricing-item .pricing-value {
+  display: flex;
+}
+.pricing-item .pricing-value .pricing-value-price {
+  font-size: 64px;
+  line-height: 1em;
+  margin-right: 16px;
+  margin-bottom: 40px;
+}
+.pricing-item .pricing-value .pricing-value-currency {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+.pricing-item .pricing-footer {
+  color: #FFFFFF;
+  font-size: 12.8px;
+  text-align: center;
+}
+
+.bg-free {
+  background-image: url("../images/subscribe_1.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-standart {
+  background-image: url("../images/subscribe_2.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-premium {
+  background-image: url("../images/subscribe_3.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.pracing-info {
+  margin-top: 40px;
+}
+
+.btn {
+  border: 1px solid #CACACA;
+  border-radius: 5px;
+  color: #FFFFFF;
+  background-color: transparent;
+  text-transform: uppercase;
+  height: 66px;
+  width: 100%;
+  margin-bottom: 64px;
+  font-size: 16px;
+}
+
+.pracing-info {
+  text-align: center;
+}
+
 h1 {
   font-size: 60px;
   line-height: 90px;

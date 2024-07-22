@@ -1,0 +1,97 @@
+.page-pricing {
+  padding-top: 100px;
+}
+
+.page-pricing-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing-header {
+  margin-bottom: 50px;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 615px;
+  width: calc((100% - 100px) / 3);
+  border-radius: 1rem;
+  box-sizing: border-box;
+  padding: 24px 1.5rem 64px;
+
+  .subscribe-title {
+    font-size: 24px;
+    margin-bottom: 200px;
+
+    @include text-uppercase;
+  }
+
+  .pricing-value {
+    display: flex;
+
+    .pricing-value-price {
+      font-size: 64px;
+      line-height: 1em;
+      margin-right: 16px;
+      margin-bottom: 40px;
+    }
+
+    .pricing-value-currency {
+      font-size: 32px;
+
+      @include text-uppercase
+    }
+  }
+
+  .pricing-footer {
+    color: $color-title;
+    font-size: 12.8px;
+    text-align: center;
+  }
+}
+
+.bg-free {
+  background-image: url('../images/subscribe_1.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-standart {
+  background-image: url('../images/subscribe_2.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-premium {
+  background-image: url('../images/subscribe_3.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.pracing-info {
+  margin-top: 40px;
+}
+
+.btn {
+  @include button;
+  @include text-uppercase;
+
+  height: 66px;
+  width: 100%;
+  margin-bottom: 64px;
+  font-size: 16px;
+}
+
+.pracing-info {
+  text-align: center;
+}
