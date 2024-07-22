@@ -38,7 +38,19 @@ ul {
   border: 0;
 }
 
+a {
+  text-decoration: none;
+  color: $color-title;
+
+  &:visited {
+    color: inherit;
+  }
+}
+
 @mixin button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid $color-text;
   border-radius: 5px;
   color: $color-title;
