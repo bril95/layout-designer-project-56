@@ -80,6 +80,28 @@ a:visited {
   color: inherit;
 }
 
+.page {
+  padding-top: 100px;
+  background-color: #08020D;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-header {
+  margin-bottom: 50px;
+}
+
+.music-box-link {
+  margin-left: 16px;
+  text-transform: uppercase;
+}
+
 .page-description {
   background-image: url("../images/banner.png");
   background-position: center;
@@ -122,11 +144,6 @@ a:visited {
 .music-box-logo {
   width: 24px;
   height: 24px;
-}
-
-.music-box-text {
-  padding-left: 16px;
-  text-transform: uppercase;
 }
 
 .menu {
@@ -195,6 +212,7 @@ a:visited {
   border-radius: 5px;
   color: #FFFFFF;
   background-color: transparent;
+  box-sizing: border-box;
   text-transform: uppercase;
   background-color: #34C176;
   height: 57px;
@@ -209,22 +227,6 @@ a:visited {
     flex-direction: column;
   }
 }
-.page-pricing {
-  padding-top: 100px;
-}
-
-.page-pricing-content {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.pricing-header {
-  margin-bottom: 50px;
-}
-
 .pricing-cards {
   display: flex;
   justify-content: space-between;
@@ -294,7 +296,11 @@ a:visited {
   border-radius: 5px;
   color: #FFFFFF;
   background-color: transparent;
+  box-sizing: border-box;
   text-transform: uppercase;
+}
+
+.btn-subscribe {
   height: 66px;
   width: 100%;
   margin-bottom: 64px;
@@ -303,6 +309,43 @@ a:visited {
 
 .pracing-info {
   text-align: center;
+}
+
+.news-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 65px;
+}
+.news-container:last-child {
+  margin-bottom: 0;
+}
+
+.news-item .news-title {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.news-item .news-content {
+  margin-bottom: 24px;
+}
+.news-item .news-info {
+  display: flex;
+  margin-bottom: 48px;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.news-item .news-info .news-avatar {
+  width: 19px;
+  height: 19px;
+}
+.news-item .news-info .music-box-link-news {
+  color: #F89202;
+  margin-right: 16px;
+}
+.news-item .btn-album {
+  width: 135px;
+  height: 53px;
+  font-size: 12px;
 }
 
 /*# sourceMappingURL=style.css.map */

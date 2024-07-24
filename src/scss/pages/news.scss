@@ -1,0 +1,44 @@
+.news-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 65px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.news-item {
+  .news-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .news-content {
+    margin-bottom: 24px;
+  }
+
+  .news-info {
+    display: flex;
+    margin-bottom: 48px;
+    font-size: 12px;
+    line-height: 1.6;
+
+    .news-avatar {
+      width: 19px;
+      height: 19px;
+    }
+
+    .music-box-link-news {
+    color: $color-accent;
+    margin-right: 16px;
+    }
+  }
+
+  .btn-album {
+    width: 135px;
+    height: 53px;
+    font-size: 12px;
+  }
+}

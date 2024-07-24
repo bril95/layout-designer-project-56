@@ -1,3 +1,18 @@
+@mixin button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid $color-text;
+  border-radius: 5px;
+  color: $color-title;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+@mixin text-uppercase {
+  text-transform: uppercase;
+}
+
 body {
   font-family: $font-family;
   font-weight: $font-weight-regular;
@@ -63,16 +78,25 @@ a {
   }
 }
 
-@mixin button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid $color-text;
-  border-radius: 5px;
-  color: $color-title;
-  background-color: transparent;
+.page {
+  padding-top: 100px;
+  background-color: $color-bg;
 }
 
-@mixin text-uppercase {
-  text-transform: uppercase;
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-header {
+  margin-bottom: 50px;
+}
+
+.music-box-link {
+  margin-left: 16px;
+
+  @include text-uppercase;
 }
