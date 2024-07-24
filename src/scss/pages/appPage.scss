@@ -1,0 +1,26 @@
+.page-app {
+  margin-bottom: 100px;
+}
+
+.page-header {
+  margin-bottom: 48px;
+}
+
+.app-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+
+  .app-info {
+    margin-top: 16px;
+  }
+}
+
+.btn-download {
+  margin-top: 16px;
+  padding: 16px 40px;
+  border-radius: 32px;
+  font-size: 12.8px;
+  background-color: $color-red;
+  width: 131px;
+}
