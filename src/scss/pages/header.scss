@@ -21,8 +21,6 @@
   flex-direction: column;
   align-items: center;
   margin-top: 150px;
-  margin-left: 120px;
-  margin-right: 120px;
 }
 
 .header {
@@ -86,6 +84,7 @@
 
 .form-field {
   max-width: 570px;
+  margin: 0 auto;
 }
 
 .form-field-input {
