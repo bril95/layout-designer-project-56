@@ -56,6 +56,11 @@ p {
 
 ul {
   margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
 }
 
 .visually-hidden {
@@ -72,10 +77,6 @@ ul {
 a {
   text-decoration: none;
   color: $color-title;
-
-  &:visited {
-    color: inherit;
-  }
 }
 
 .page {

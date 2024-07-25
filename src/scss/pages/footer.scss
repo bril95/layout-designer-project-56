@@ -1,0 +1,40 @@
+.bg-gradient {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-top {
+  padding: 3rem 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  .footer-title {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-weight: $font-weight-bold;
+  }
+}
+
+.horizontal-line {
+  margin: 0;
+  border: none;
+  height: 1px;
+  background-color: $color-text;
+}
+
+.footer-bottom {
+  padding: 2rem 0;
+
+  .footer-menu-secondary {
+    display: flex;
+
+    li {
+      padding-right: 16px;
+    }
+  }
+}
