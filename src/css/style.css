@@ -403,6 +403,10 @@ a {
   background-color: #CACACA;
 }
 
+.footer-media {
+  margin-right: 24px;
+}
+
 .footer-bottom {
   padding: 2rem 0;
 }
@@ -411,6 +415,10 @@ a {
 }
 .footer-bottom .footer-menu-secondary li {
   padding-right: 16px;
+}
+
+.footer-menu-link {
+  color: #E0E0E0;
 }
 
 /*# sourceMappingURL=style.css.map */
