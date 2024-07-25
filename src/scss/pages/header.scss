@@ -30,6 +30,7 @@
   align-items: center;
   font-size: 11px;
   padding-top: 25px;
+  color: $color-text;
 }
 
 .music-box {
@@ -53,6 +54,10 @@
 
       &:last-child {
         padding-right: 0;
+      }
+
+      .active {
+        color: $color-title;
       }
     }
 }
