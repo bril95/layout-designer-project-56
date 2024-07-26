@@ -7,7 +7,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 615px;
   width: calc((100% - 100px) / 3);
   border-radius: 1rem;
   box-sizing: border-box;
@@ -62,10 +61,6 @@
   background-size: cover;
 }
 
-.pracing-info {
-  margin-top: 40px;
-}
-
 .btn {
   @include button;
   @include text-uppercase;
@@ -78,6 +73,39 @@
   font-size: 16px;
   border-color: $color-title;
 }
-.pracing-info {
+.pricing-info {
   text-align: center;
+  margin-top: 40px;
+}
+
+@media (max-width: 414px) {
+  .pricing-cards {
+    flex-direction: column;
+    gap: 50px;
+
+    .pricing-item {
+      width: 100%;
+      padding-top: 16px;
+
+      .subscribe-title {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media (min-width: 415px) and (max-width: 709px) {
+  .pricing-cards {
+    flex-direction: column;
+    gap: 50px;
+
+    .pricing-item {
+      width: 100%;
+      padding-top: 16px;
+
+      .subscribe-title {
+        font-size: 16px;
+      }
+    }
+  }
 }

@@ -105,6 +105,22 @@ a {
   h2 {
     font-size: 18px;
   }
+  .content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 415px) and (max-width: 709px) {
+  .content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 710px) and (max-width: 899px) {
+  .content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 .page-description {
   background-image: url("../images/banner.png");
@@ -342,7 +358,6 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 615px;
   width: calc((100% - 100px) / 3);
   border-radius: 1rem;
   box-sizing: border-box;
@@ -390,10 +405,6 @@ a {
   background-size: cover;
 }
 
-.pracing-info {
-  margin-top: 40px;
-}
-
 .btn {
   display: flex;
   justify-content: center;
@@ -414,10 +425,37 @@ a {
   border-color: #FFFFFF;
 }
 
-.pracing-info {
+.pricing-info {
   text-align: center;
+  margin-top: 40px;
 }
 
+@media (max-width: 414px) {
+  .pricing-cards {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .pricing-cards .pricing-item {
+    width: 100%;
+    padding-top: 16px;
+  }
+  .pricing-cards .pricing-item .subscribe-title {
+    font-size: 16px;
+  }
+}
+@media (min-width: 415px) and (max-width: 709px) {
+  .pricing-cards {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .pricing-cards .pricing-item {
+    width: 100%;
+    padding-top: 16px;
+  }
+  .pricing-cards .pricing-item .subscribe-title {
+    font-size: 16px;
+  }
+}
 .news-container {
   display: flex;
   justify-content: space-between;
