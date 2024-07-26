@@ -61,7 +61,7 @@
 }
 
 .search-field {
-  margin-left: 450px;
+  margin-left: auto;
 }
 
 .search {
@@ -118,12 +118,136 @@
 }
 
 
-@media (max-width: 768px) {
-  .header {
-    flex-direction: column;
+@media (max-width: 414px) {
+  .page-description-content {
+    @include padding-content;
   }
 
-  .menu {
+  .header {
     flex-direction: column;
+    align-items: flex-start;
+
+    .music-box {
+      font-weight: $font-weight-bold;
+    }
+
+    .menu {
+      flex-direction: column;
+      padding-left: 0;
+      margin-top: 17px;
+  
+      .menu-list {
+        font-weight: $font-weight-bold;
+      }
+    }
+
+    .search-field {
+      margin-top: 18px;
+      margin-left: 0;
+      width: 100%;
+  
+      .search {
+        width: 100%;
+      }
+    }
+  }
+
+  .intro-section {
+    margin-top: 78px;
+
+    h1 {
+      text-align: center;
+    }
+
+    .description {
+      text-align: center;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+  }
+
+  .form-field-input {
+    flex-direction: column;
+    align-items: center;
+
+    .form {
+      width: 100%;
+      font-weight: $font-weight-bold;
+    }
+  }
+}
+
+@media (min-width: 415px) and (max-width: 709px) {
+  .page-description-content {
+    @include padding-content;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+
+    .menu {
+      padding-left: 0;
+      margin-top: 17px;
+      }
+
+      .search-field {
+        margin-top: 18px;
+        margin-left: 0;
+        width: 100%;
+    
+        .search {
+          width: 100%;
+        }
+      }
+  }
+
+  .intro-section {
+    margin-top: 78px;
+
+    h1 {
+      text-align: center;
+    }
+
+    .description {
+      text-align: center;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+  }
+
+  .form-field-input {
+    flex-direction: column;
+    align-items: center;
+
+    .form {
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 710px) and (max-width: 899px) {
+  .page-description-content {
+    @include padding-content;
+  }
+
+  .header {
+    .menu {
+      padding-left: 0;
+      }
+  }
+
+  .intro-section {
+    margin-top: 78px;
+
+    h1 {
+      text-align: center;
+    }
+
+    .description {
+      text-align: center;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
   }
 }
