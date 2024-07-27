@@ -349,6 +349,13 @@ a {
     margin-bottom: 16px;
   }
 }
+@media (min-width: 415px) and (max-width: 1200px) {
+  .page-description-main {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 .pricing-cards {
   display: flex;
   justify-content: space-between;
@@ -706,7 +713,13 @@ a {
   }
   .artist-buttons {
     flex-direction: column;
-    gap: 24px;
+  }
+}
+@media (min-width: 415px) and (max-width: 1200px) {
+  .page-description-artist {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 

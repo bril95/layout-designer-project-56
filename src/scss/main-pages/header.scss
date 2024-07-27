@@ -251,3 +251,11 @@
     }
   }
 }
+
+@media (min-width: 415px) and (max-width: 1200px) {
+  .page-description-main {
+    box-sizing: border-box;
+
+    @include padding-content;
+  }
+}

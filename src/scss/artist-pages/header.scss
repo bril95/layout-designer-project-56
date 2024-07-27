@@ -55,10 +55,10 @@
   }
 }
 
-@media (min-width: 415px) and (max-width: 709px) {
+@media (min-width: 415px) and (max-width: 1200px) {
+  .page-description-artist {
+    box-sizing: border-box;
 
-}
-
-@media (min-width: 710px) and (max-width: 899px) {
-
+    @include padding-content;
+  }
 }
