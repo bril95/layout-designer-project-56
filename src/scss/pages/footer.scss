@@ -46,3 +46,46 @@
 .footer-menu-link {
   color: $color-secondary;
 }
+
+@media (max-width: 469px) {
+  .footer-content {
+    @include padding-content;
+  }
+
+  .footer-top {
+    display: block;
+
+    .col:not(:first-child) {
+      margin-top: 30px;
+    }
+  }
+
+  .footer-menu-secondary {
+    flex-direction: column;
+
+    li {
+      padding-right: 0;
+      margin-bottom: 16px;
+    }
+  }
+}
+
+@media (min-width: 470px) and (max-width: 839px) {
+  .footer-content {
+    @include padding-content;
+  }
+
+  .footer-top {
+    display: block;
+
+    .col:not(:first-child) {
+      margin-top: 30px;
+    }
+  }
+}
+
+@media (min-width: 840px) and (max-width: 1200px) {
+  .footer-content {
+    @include padding-content;
+  }
+}
