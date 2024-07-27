@@ -14,6 +14,12 @@
   .app-info {
     margin-top: 16px;
   }
+
+  .app-img {
+    width: 333px;
+    height: 278px;
+    margin: 0 auto;
+  }
 }
 
 .btn-download {
@@ -23,4 +29,11 @@
   font-size: 12.8px;
   background-color: $color-red;
   width: 131px;
+}
+
+@media (max-width: 550px) {
+  .app-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

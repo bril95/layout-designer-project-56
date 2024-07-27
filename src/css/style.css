@@ -510,7 +510,7 @@ a {
     font-weight: 400;
   }
 }
-@media (min-width: 415px) and (max-width: 800px) {
+@media (min-width: 415px) and (max-width: 839px) {
   .news-container {
     flex-direction: column;
   }
@@ -542,6 +542,11 @@ a {
 .app-container .app-info {
   margin-top: 16px;
 }
+.app-container .app-img {
+  width: 333px;
+  height: 278px;
+  margin: 0 auto;
+}
 
 .btn-download {
   margin-top: 16px;
@@ -552,6 +557,12 @@ a {
   width: 131px;
 }
 
+@media (max-width: 550px) {
+  .app-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
 .bg-gradient {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
