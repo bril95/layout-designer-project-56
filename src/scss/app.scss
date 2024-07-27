@@ -1,7 +1,9 @@
 @import 'variables';
 @import 'general';
-@import './pages/header';
-@import './pages/pracing';
-@import './pages/news';
-@import './pages/appPage';
-@import './pages/footer';
+@import './main-pages/header';
+@import './main-pages/pracing';
+@import './main-pages/news';
+@import './main-pages/appPage';
+@import './main-pages/footer';
+@import './artist-pages/header';
+

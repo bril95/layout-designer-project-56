@@ -122,7 +122,7 @@ a {
     padding-right: 20px;
   }
 }
-.page-description {
+.page-description-main {
   background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
@@ -644,6 +644,69 @@ a {
   .footer-content {
     padding-left: 20px;
     padding-right: 20px;
+  }
+}
+.page-description-artist {
+  background-image: url("../images/Morten Harket.png");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 223px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.artist-intro {
+  margin-top: 200px;
+}
+
+.artist-buttons {
+  display: flex;
+  margin-top: 48px;
+  gap: 1.5rem;
+}
+
+.arttist-subscribers {
+  color: #FFFFFF;
+  margin-top: 16px;
+}
+
+.mix-btn {
+  background-color: #5328A1;
+  width: 200px;
+  height: 62px;
+  font-size: 12.8px;
+  border: none;
+  padding: 20px 30px;
+  justify-content: flex-start;
+}
+
+.favourite-btn {
+  background-color: #95390C;
+  width: 200px;
+  height: 62px;
+  font-size: 12.8px;
+  border: none;
+  padding: 20px 30px;
+  justify-content: flex-start;
+}
+
+.img-btn {
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+  filter: invert(1);
+}
+
+@media (max-width: 414px) {
+  .artist-intro {
+    margin-top: 55px;
+  }
+  .artist-buttons {
+    flex-direction: column;
+    gap: 24px;
   }
 }
 

@@ -58,6 +58,14 @@ $font-weight-bold: 700;
   @include text-uppercase;
 }
 
+@mixin button-artist {
+  width: 200px;
+  height: 62px;
+  font-size: 12.8px;
+  border: none;
+  padding: 20px 30px;
+  justify-content: flex-start;
+}
 // Mobile
 
 @mixin heading-styles-mobile($font-size) {
