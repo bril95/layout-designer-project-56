@@ -1,0 +1,67 @@
+.page-similar {
+  margin-bottom: 100px;
+}
+
+.similar-title {
+  margin-bottom: 48px;
+}
+
+.similar-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(2, auto);
+  column-gap: 50px;
+  row-gap: 25px;
+}
+
+.similar-img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 11px;
+}
+
+.similar-info {
+  text-align: center;
+
+  .similar-artist {
+    font-size: 18px;
+    font-weight: $font-weight-bold;
+  }
+}
+
+@media (max-width: 575px) {
+  .similar-container {
+    grid-template-columns: repeat(2, 137px); //переделать не хардкодить размер ячейки
+    grid-template-rows: repeat(4, auto);
+  }
+
+  .similar-img {
+    width: 137px;
+    height: 137px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 829px) {
+  .similar-container {
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    justify-items: center;
+  }
+
+  .similar-img {
+    width: 137px;
+    height: 137px;
+  }
+}
+
+
+@media (min-width: 830px) and (max-width: 1199px) {
+  .similar-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .similar-container {
+    justify-items: center;
+  }
+}
