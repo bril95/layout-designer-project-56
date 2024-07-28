@@ -106,7 +106,7 @@ a {
   }
 }
 
-@media (min-width: 710px) and (max-width: 899px) {
+@media (min-width: 710px) and (max-width: 1199px) {
   .content {
     @include padding-content;
   }

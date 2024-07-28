@@ -129,7 +129,7 @@ a {
     padding-right: 20px;
   }
 }
-@media (min-width: 710px) and (max-width: 899px) {
+@media (min-width: 710px) and (max-width: 1199px) {
   .content {
     padding-left: 20px;
     padding-right: 20px;
@@ -778,6 +778,57 @@ a {
   .tracks {
     display: flex;
     flex-direction: column;
+  }
+}
+.discography-title {
+  margin-bottom: 48px;
+}
+
+.discography-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(2, auto);
+  column-gap: 50px;
+  row-gap: 25px;
+}
+
+.album .discography-img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 11px;
+}
+.album .album-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+.album .discography-year {
+  color: #E0E0E0;
+}
+
+@media (max-width: 575px) {
+  .discography-container {
+    grid-template-columns: repeat(2, 140px);
+    grid-template-rows: repeat(3, auto);
+  }
+  .album .discography-img {
+    width: 137px;
+    height: 137px;
+  }
+}
+@media (min-width: 576px) and (max-width: 829px) {
+  .discography-container {
+    grid-template-columns: repeat(3, 140px);
+    grid-template-rows: repeat(2, auto);
+  }
+  .album .discography-img {
+    width: 137px;
+    height: 137px;
+  }
+}
+@media (min-width: 830px) and (max-width: 1199px) {
+  .album .discography-img {
+    width: 150px;
+    height: 150px;
   }
 }
 
