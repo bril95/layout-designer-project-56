@@ -56,8 +56,8 @@ a {
 }
 
 .content {
-  max-width: 1200px;
-  margin: 0 auto;
+  @include content;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,6 +73,9 @@ a {
   @include text-uppercase;
 }
 
+.content-artist {
+  @include content;
+}
 
 //Mobile
 @media (max-width: 414px) {
@@ -87,16 +90,28 @@ a {
   .content {
     @include padding-content;
   }
+
+  .content-artist {
+    @include padding-content;
+  }
 }
 
 @media (min-width: 415px) and (max-width: 709px) {
   .content {
     @include padding-content;
   }
+
+  .content-artist {
+    @include padding-content;
+  }
 }
 
 @media (min-width: 710px) and (max-width: 899px) {
   .content {
+    @include padding-content;
+  }
+
+  .content-artist {
     @include padding-content;
   }
 }

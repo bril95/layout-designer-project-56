@@ -98,6 +98,11 @@ a {
   text-transform: uppercase;
 }
 
+.content-artist {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 @media (max-width: 414px) {
   h1 {
     font-size: 30px;
@@ -109,15 +114,27 @@ a {
     padding-left: 20px;
     padding-right: 20px;
   }
+  .content-artist {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 @media (min-width: 415px) and (max-width: 709px) {
   .content {
     padding-left: 20px;
     padding-right: 20px;
   }
+  .content-artist {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 @media (min-width: 710px) and (max-width: 899px) {
   .content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .content-artist {
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -720,6 +737,47 @@ a {
     box-sizing: border-box;
     padding-left: 20px;
     padding-right: 20px;
+  }
+}
+.popular-track-title {
+  margin-bottom: 48px;
+}
+
+.tracks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  column-gap: 50px;
+  row-gap: 25px;
+}
+.tracks .popular-track {
+  display: flex;
+}
+.tracks .popular-track .album-img {
+  width: 55px;
+  height: 55px;
+}
+.tracks .popular-track .track-info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15px;
+  font-size: 12.8px;
+}
+.tracks .popular-track .track-info .track-name {
+  font-size: 12.8px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.tracks .popular-track .track-info .track-artist {
+  color: #E0E0E0;
+}
+
+@media (max-width: 550px) {
+  .tracks {
+    display: flex;
+    flex-direction: column;
   }
 }
 

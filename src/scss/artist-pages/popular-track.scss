@@ -1,0 +1,47 @@
+.popular-track-title {
+  margin-bottom: 48px;
+}
+
+.tracks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  column-gap: 50px;
+  row-gap: 25px;
+
+  .popular-track {
+    display: flex;
+
+    .album-img {
+      width: 55px;
+      height: 55px;
+    }
+
+    .track-info {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 15px;
+      font-size: 12.8px;
+
+      .track-name {
+        font-size: 12.8px;
+        font-weight: $font-weight-bold;
+
+        @include text-uppercase;
+      }
+
+      .track-artist {
+        color: $color-secondary;
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .tracks {
+    display: flex;
+    flex-direction: column;
+  }
+}
