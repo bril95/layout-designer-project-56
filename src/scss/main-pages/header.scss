@@ -1,9 +1,10 @@
 .page-description-main {
-  @include background-image-cover('../images/banner.png');
+  background-image: url('../images/banner.png');
+  padding-bottom: 200px;
 }
 
 .page-description-content {
-  width: 1200px;
+  max-width: 1200px;
   width: 100%;
   box-sizing: border-box;
 }

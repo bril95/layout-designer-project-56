@@ -133,14 +133,14 @@ a {
   background-size: cover;
   height: 100%;
   width: 100%;
-  padding-bottom: 220px;
+  padding-bottom: 200px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
 }
 
 .page-description-content {
-  width: 1200px;
+  max-width: 1200px;
   width: 100%;
   box-sizing: border-box;
 }
@@ -680,7 +680,7 @@ a {
   background-size: cover;
   height: 100%;
   width: 100%;
-  padding-bottom: 220px;
+  padding-bottom: 223px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -722,10 +722,10 @@ a {
 }
 
 .img-btn {
-  margin-right: 16px;
-  filter: invert(1);
   width: 20px;
   height: 20px;
+  margin-right: 16px;
+  filter: invert(1);
 }
 
 @media (max-width: 414px) {

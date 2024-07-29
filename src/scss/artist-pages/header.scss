@@ -1,5 +1,6 @@
 .page-description-artist {
-  @include background-image-cover('../images/Morten Harket.png');
+  background-image: url('../images/Morten Harket.png');
+  padding-bottom: 223px;
 }
 
 .artist-intro {
@@ -15,6 +16,7 @@
 .artist-subscribers{
   color: $color-title;
   margin-top: 16px;
+
 }
 
 .mix-btn {
