@@ -93,7 +93,7 @@ a {
 }
 
 .page-header {
-  margin-bottom: 50px;
+  margin-bottom: 48px;
 }
 
 .music-box-link {
@@ -733,10 +733,6 @@ a {
     padding-right: 20px;
   }
 }
-.popular-track-title {
-  margin-bottom: 48px;
-}
-
 .tracks {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -773,10 +769,6 @@ a {
     flex-direction: column;
   }
 }
-.discography-title {
-  margin-bottom: 48px;
-}
-
 .discography-container {
   display: grid;
   grid-template-columns: repeat(4, 250px);
@@ -827,14 +819,10 @@ a {
   margin-bottom: 100px;
 }
 
-.similar-title {
-  margin-bottom: 48px;
-}
-
 .similar-container {
   display: grid;
   grid-template-columns: repeat(4, 250px);
-  grid-template-rows: repeat(2, 319px);
+  grid-template-rows: repeat(2, auto);
   gap: 25px 50px;
 }
 
