@@ -80,6 +80,7 @@
 .description {
   margin-top: 30px;
   margin-bottom: 17px;
+  color: $color-title;
 }
 
 .form-field {
@@ -115,6 +116,7 @@
   background-color: $color-green;
   height: 57px;
   border: 0 solid transparent;
+  font-size: 13.3px;
 }
 
 
@@ -134,7 +136,7 @@
     .menu {
       flex-direction: column;
       padding-left: 0;
-      margin-top: 17px;
+      margin-top: 15px;
   
       .menu-list {
         font-weight: $font-weight-bold;
@@ -142,7 +144,7 @@
     }
 
     .search-field {
-      margin-top: 18px;
+      margin-top: 16px;
       margin-left: 0;
       width: 100%;
   

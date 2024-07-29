@@ -210,6 +210,7 @@ a {
 .description {
   margin-top: 30px;
   margin-bottom: 17px;
+  color: #FFFFFF;
 }
 
 .form-field {
@@ -250,6 +251,7 @@ a {
   background-color: #34C176;
   height: 57px;
   border: 0 solid transparent;
+  font-size: 13.3px;
 }
 
 @media (max-width: 414px) {
@@ -267,13 +269,13 @@ a {
   .header .menu {
     flex-direction: column;
     padding-left: 0;
-    margin-top: 17px;
+    margin-top: 15px;
   }
   .header .menu .menu-list {
     font-weight: 700;
   }
   .header .search-field {
-    margin-top: 18px;
+    margin-top: 16px;
     margin-left: 0;
     width: 100%;
   }
@@ -565,6 +567,9 @@ a {
   width: 333px;
   height: 278px;
   margin: 0 auto;
+}
+.app-container .app-text:first-of-type {
+  margin-bottom: 16px;
 }
 
 .btn-download {
