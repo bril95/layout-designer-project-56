@@ -28,7 +28,7 @@
 
 @media (max-width: 575px) {
   .discography-container {
-    grid-template-columns: repeat(2, 140px); // переделать не хардкодить размер ячейки
+    grid-template-columns: repeat(2, 140px);
     grid-template-rows: repeat(3, auto);
   }
 
