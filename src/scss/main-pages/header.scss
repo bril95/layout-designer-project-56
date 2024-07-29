@@ -1,6 +1,7 @@
 .page-description-main {
-  @include background-image-cover('../images/banner.png');
   padding-bottom: 200px;
+
+  @include background-image-cover('../images/banner.png');
 }
 
 .page-description-content {
