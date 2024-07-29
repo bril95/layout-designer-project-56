@@ -93,20 +93,4 @@ a {
   .page {
     width: auto;
   }
-
-  .content-artist {
-    @include padding-content;
-  }
-}
-
-@media (min-width: 415px) and (max-width: 709px) {
-  .content-artist {
-    @include padding-content;
-  }
-}
-
-@media (min-width: 710px) and (max-width: 1199px) {
-  .content-artist {
-    @include padding-content;
-  }
 }

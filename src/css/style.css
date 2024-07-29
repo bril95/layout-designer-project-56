@@ -116,22 +116,6 @@ a {
   .page {
     width: auto;
   }
-  .content-artist {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-@media (min-width: 415px) and (max-width: 709px) {
-  .content-artist {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-@media (min-width: 710px) and (max-width: 1199px) {
-  .content-artist {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
 }
 .page-description-main {
   background-image: url("../images/banner.png");
