@@ -836,7 +836,7 @@ a {
 .similar-container {
   display: grid;
   grid-template-columns: repeat(4, 250px);
-  grid-template-rows: repeat(2, auto);
+  grid-template-rows: repeat(2, 319px);
   column-gap: 50px;
   row-gap: 25px;
 }
@@ -844,7 +844,7 @@ a {
 .similar-img {
   width: 250px;
   height: 250px;
-  margin-bottom: 17px;
+  margin-bottom: 15px;
 }
 
 .similar-info {
