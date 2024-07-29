@@ -791,8 +791,10 @@ a {
 
 @media (max-width: 575px) {
   .discography-container {
+    display: grid;
     grid-template-columns: repeat(2, 140px);
     grid-template-rows: repeat(3, auto);
+    gap: 25px 50px;
   }
   .album .discography-img {
     width: 137px;
@@ -801,8 +803,10 @@ a {
 }
 @media (min-width: 576px) and (max-width: 829px) {
   .discography-container {
+    display: grid;
     grid-template-columns: repeat(3, 140px);
     grid-template-rows: repeat(2, auto);
+    gap: 25px 50px;
   }
   .album .discography-img {
     width: 137px;

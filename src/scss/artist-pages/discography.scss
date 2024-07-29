@@ -4,8 +4,7 @@
 
 .album {
   .discography-img {
-    width: 250px;
-    height: 250px;
+    @include set-size(250px);
     margin-bottom: 11px;
   }
 
@@ -21,28 +20,24 @@
 
 @media (max-width: 575px) {
   .discography-container {
-    grid-template-columns: repeat(2, 140px);
-    grid-template-rows: repeat(3, auto);
+    @include container(2, 140px, 3, auto);
   }
 
   .album {
     .discography-img {
-      width: 137px;
-      height: 137px;
+      @include set-size($mobile-img-size);
     }
   }
 }
 
 @media (min-width: 576px) and (max-width: 829px) {
   .discography-container {
-    grid-template-columns: repeat(3, 140px);
-    grid-template-rows: repeat(2, auto);
+    @include container(3, 140px, 2, auto);
   }
 
   .album {
     .discography-img {
-      width: 137px;
-      height: 137px;
+      @include set-size($mobile-img-size);
     }
   }
 }
@@ -51,8 +46,7 @@
 @media (min-width: 830px) and (max-width: 1199px) {
   .album {
     .discography-img {
-      width: 150px;
-      height: 150px;
+      @include set-size($tablet-img-size);
     }
   }
 }

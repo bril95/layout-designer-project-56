@@ -7,8 +7,7 @@
 }
 
 .similar-img {
-  width: 250px;
-  height: 250px;
+  @include set-size($desktop-img-size);
   margin-bottom: 15px;
 }
 
@@ -28,8 +27,7 @@
   }
 
   .similar-img {
-    width: 137px;
-    height: 137px;
+    @include set-size($mobile-img-size);
   }
 }
 
@@ -41,16 +39,14 @@
   }
 
   .similar-img {
-    width: 137px;
-    height: 137px;
+    @include set-size($mobile-img-size);
   }
 }
 
 
 @media (min-width: 830px) and (max-width: 1199px) {
   .similar-img {
-    width: 150px;
-    height: 150px;
+    @include set-size($tablet-img-size);
   }
 
   .similar-container {
