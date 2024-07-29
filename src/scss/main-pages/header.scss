@@ -1,6 +1,13 @@
 .page-description-main {
   background-image: url('../images/banner.png');
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
   padding-bottom: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .page-description-content {
@@ -30,7 +37,8 @@
 }
 
 .music-box-logo {
-  @include set-size(24px);
+  width: 24px;
+  height: 24px;
 }
 
 .menu {
