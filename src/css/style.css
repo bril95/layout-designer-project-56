@@ -741,8 +741,7 @@ a {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  column-gap: 50px;
-  row-gap: 25px;
+  gap: 25px 50px;
 }
 .tracks .popular-track {
   display: flex;
@@ -803,7 +802,7 @@ a {
     grid-template-columns: repeat(2, 140px);
     grid-template-rows: repeat(3, auto);
   }
-  .album .discography-img {
+  .discography-img {
     width: 137px;
     height: 137px;
   }
@@ -837,7 +836,7 @@ a {
   grid-template-columns: repeat(4, 250px);
   grid-template-rows: repeat(2, 319px);
   column-gap: 50px;
-  row-gap: 25px;
+  gap: 25px 50px;
 }
 
 .similar-img {

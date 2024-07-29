@@ -10,5 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "surge": "^0.23.1"
+  },
+  "devDependencies": {
+    "stylelint": "^16.7.0",
+    "stylelint-config-standard": "^36.0.1",
+    "stylelint-scss": "^6.4.1"
   }
 }
