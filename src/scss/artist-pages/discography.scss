@@ -6,8 +6,7 @@
   display: grid;
   grid-template-columns: repeat(4, 250px);
   grid-template-rows: repeat(2, auto);
-  column-gap: 50px;
-  row-gap: 25px;
+  gap: 25px 50px;
 }
 
 .album {
@@ -21,6 +20,7 @@
     font-size: 18px;
     font-weight: $font-weight-bold;
   }
+
   .discography-year {
     color: $color-secondary;
   }
@@ -28,16 +28,14 @@
 
 @media (max-width: 575px) {
   .discography-container {
-    grid-template-columns: repeat(2, 140px); //переделать не хардкодить размер ячейки
+    grid-template-columns: repeat(2, 140px); // переделать не хардкодить размер ячейки
     grid-template-rows: repeat(3, auto);
   }
 
-  .album {
-    .discography-img {
+  .discography-img {
       width: 137px;
       height: 137px;
     }
-  }
 }
 
 @media (min-width: 576px) and (max-width: 829px) {

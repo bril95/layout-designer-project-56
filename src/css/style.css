@@ -782,8 +782,7 @@ a {
   display: grid;
   grid-template-columns: repeat(4, 250px);
   grid-template-rows: repeat(2, auto);
-  column-gap: 50px;
-  row-gap: 25px;
+  gap: 25px 50px;
 }
 
 .album .discography-img {
