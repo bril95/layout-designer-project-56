@@ -802,7 +802,7 @@ a {
     grid-template-columns: repeat(2, 140px);
     grid-template-rows: repeat(3, auto);
   }
-  .discography-img {
+  .album .discography-img {
     width: 137px;
     height: 137px;
   }
