@@ -34,6 +34,10 @@
 
 
 @media (min-width: 830px) and (max-width: 1199px) {
+  .discography-container {
+    @include container(3, auto, 2, auto);
+  }
+
   .album {
     .artist-img {
       @include set-size($tablet-img-size);
