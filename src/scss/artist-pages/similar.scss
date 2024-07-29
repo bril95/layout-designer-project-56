@@ -10,11 +10,6 @@
   text-align: center;
 }
 
-.artist-title {
-  font-size: 18px;
-  font-weight: $font-weight-bold;
-}
-
 @media (max-width: 575px) {
   .similar-container {
     @include container(2, 137px, 4, 230px);
