@@ -4,8 +4,9 @@
 
 .album {
   .discography-img {
-    @include set-size(250px);
     margin-bottom: 11px;
+
+    @include set-size(250px);
   }
 
   .album-title {

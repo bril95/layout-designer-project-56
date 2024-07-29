@@ -777,9 +777,9 @@ a {
 }
 
 .album .discography-img {
+  margin-bottom: 11px;
   width: 250px;
   height: 250px;
-  margin-bottom: 11px;
 }
 .album .album-title {
   font-size: 18px;
@@ -831,23 +831,26 @@ a {
 }
 
 .similar-img {
+  margin-bottom: 11px;
   width: 250px;
   height: 250px;
-  margin-bottom: 15px;
 }
 
 .similar-info {
   text-align: center;
 }
-.similar-info .similar-artist {
+
+.similar-artist {
   font-size: 18px;
   font-weight: 700;
 }
 
 @media (max-width: 575px) {
   .similar-container {
+    display: grid;
     grid-template-columns: repeat(2, 137px);
     grid-template-rows: repeat(4, 230px);
+    gap: 25px 50px;
   }
   .similar-img {
     width: 137px;
@@ -856,9 +859,11 @@ a {
 }
 @media (min-width: 576px) and (max-width: 829px) {
   .similar-container {
+    justify-items: center;
+    display: grid;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(3, auto);
-    justify-items: center;
+    gap: 25px 50px;
   }
   .similar-img {
     width: 137px;

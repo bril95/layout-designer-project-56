@@ -7,23 +7,23 @@
 }
 
 .similar-img {
+  margin-bottom: 11px;
+
   @include set-size($desktop-img-size);
-  margin-bottom: 15px;
 }
 
 .similar-info {
   text-align: center;
+}
 
-  .similar-artist {
-    font-size: 18px;
-    font-weight: $font-weight-bold;
-  }
+.similar-artist {
+  font-size: 18px;
+  font-weight: $font-weight-bold;
 }
 
 @media (max-width: 575px) {
   .similar-container {
-    grid-template-columns: repeat(2, 137px);
-    grid-template-rows: repeat(4, 230px);
+    @include container(2, 137px, 4, 230px);
   }
 
   .similar-img {
@@ -33,9 +33,9 @@
 
 @media (min-width: 576px) and (max-width: 829px) {
   .similar-container {
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(3, auto);
     justify-items: center;
+
+    @include container(3, auto, 3, auto);
   }
 
   .similar-img {
