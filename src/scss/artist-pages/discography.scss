@@ -32,10 +32,12 @@
     grid-template-rows: repeat(3, auto);
   }
 
-  .discography-img {
+  .album {
+    .discography-img {
       width: 137px;
       height: 137px;
     }
+  }
 }
 
 @media (min-width: 576px) and (max-width: 829px) {
