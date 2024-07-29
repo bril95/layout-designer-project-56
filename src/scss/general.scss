@@ -90,8 +90,8 @@ a {
     @include heading-styles-mobile(18px);
   }
 
-  .content {
-    @include padding-content;
+  .page {
+    width: auto;
   }
 
   .content-artist {
@@ -100,20 +100,12 @@ a {
 }
 
 @media (min-width: 415px) and (max-width: 709px) {
-  .content {
-    @include padding-content;
-  }
-
   .content-artist {
     @include padding-content;
   }
 }
 
 @media (min-width: 710px) and (max-width: 1199px) {
-  .content {
-    @include padding-content;
-  }
-
   .content-artist {
     @include padding-content;
   }

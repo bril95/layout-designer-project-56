@@ -8,7 +8,8 @@
 }
 
 .footer-top {
-  padding: 3rem 0;
+  padding-top: 62px;
+  padding-bottom: 72px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 
@@ -32,7 +33,8 @@
 }
 
 .footer-bottom {
-  padding: 2rem 0;
+  padding-top: 40px;
+  padding-bottom: 49px;
 
   .footer-menu-secondary {
     display: flex;
