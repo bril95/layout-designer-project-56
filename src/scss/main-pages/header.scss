@@ -1,13 +1,6 @@
 .page-description-main {
-  background-image: url('../images/banner.png');
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
+  @include background-image-cover('../images/banner.png');
   padding-bottom: 200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
 }
 
 .page-description-content {

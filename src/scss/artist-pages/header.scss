@@ -1,13 +1,6 @@
 .page-description-artist {
-  background-image: url('../images/Morten Harket.png');
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
+  @include background-image-cover('../images/Morten Harket.png');
   padding-bottom: 223px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
 }
 
 .artist-intro {
