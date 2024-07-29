@@ -604,7 +604,6 @@ a {
 }
 .footer-top .footer-title {
   font-size: 18px;
-  line-height: 1.5;
   margin-bottom: 15px;
   font-weight: 700;
 }
@@ -645,6 +644,15 @@ a {
   }
   .footer-top .col:not(:first-child) {
     margin-top: 30px;
+  }
+  .footer-top .footer-title {
+    margin-bottom: 16px;
+  }
+  .horizontal-line {
+    height: 1px;
+  }
+  .footer-bottom {
+    padding-bottom: 47px;
   }
   .footer-menu-secondary {
     flex-direction: column;
