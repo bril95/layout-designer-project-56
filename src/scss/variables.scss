@@ -81,3 +81,10 @@ $font-weight-bold: 700;
   max-width: 1200px;
   margin: 0 auto;
 }
+
+@mixin container($columns: 4, $column-width: 250px, $rows: 2, $row-height: auto, $column-gap: 50px, $row-gap: 25px) {
+  display: grid;
+  grid-template-columns: repeat($columns, $column-width);
+  grid-template-rows: repeat($rows, $row-height);
+  gap: $row-gap $column-gap;
+}

@@ -1,8 +1,5 @@
 .discography-container {
-  display: grid;
-  grid-template-columns: repeat(4, 250px);
-  grid-template-rows: repeat(2, auto);
-  gap: 25px 50px;
+  @include container();
 }
 
 .album {
