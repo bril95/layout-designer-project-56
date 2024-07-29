@@ -6,17 +6,11 @@
   @include container();
 }
 
-.similar-img {
-  margin-bottom: 11px;
-
-  @include set-size($desktop-img-size);
-}
-
 .similar-info {
   text-align: center;
 }
 
-.similar-artist {
+.artist-title {
   font-size: 18px;
   font-weight: $font-weight-bold;
 }
@@ -26,8 +20,10 @@
     @include container(2, 137px, 4, 230px);
   }
 
-  .similar-img {
+  .similar-item {
+      .artist-img {
     @include set-size($mobile-img-size);
+    }
   }
 }
 
@@ -38,15 +34,19 @@
     @include container(3, auto, 3, auto);
   }
 
-  .similar-img {
+  .similar-item {
+      .artist-img {
     @include set-size($mobile-img-size);
+    }
   }
 }
 
 
 @media (min-width: 830px) and (max-width: 1199px) {
-  .similar-img {
+  .similar-item {
+      .artist-img {
     @include set-size($tablet-img-size);
+    }
   }
 
   .similar-container {

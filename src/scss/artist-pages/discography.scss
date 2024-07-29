@@ -3,17 +3,6 @@
 }
 
 .album {
-  .discography-img {
-    margin-bottom: 11px;
-
-    @include set-size(250px);
-  }
-
-  .album-title {
-    font-size: 18px;
-    font-weight: $font-weight-bold;
-  }
-
   .discography-year {
     color: $color-secondary;
   }
@@ -25,7 +14,7 @@
   }
 
   .album {
-    .discography-img {
+    .artist-img {
       @include set-size($mobile-img-size);
     }
   }
@@ -37,7 +26,7 @@
   }
 
   .album {
-    .discography-img {
+    .artist-img {
       @include set-size($mobile-img-size);
     }
   }
@@ -46,7 +35,7 @@
 
 @media (min-width: 830px) and (max-width: 1199px) {
   .album {
-    .discography-img {
+    .artist-img {
       @include set-size($tablet-img-size);
     }
   }

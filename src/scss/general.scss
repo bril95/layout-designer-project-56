@@ -80,6 +80,17 @@ a {
   @include content;
 }
 
+.artist-title{
+  font-size: 18px;
+  font-weight: $font-weight-bold;
+}
+
+.artist-img {
+  margin-bottom: 11px;
+
+  @include set-size(250px);
+}
+
 //Mobile
 @media (max-width: 414px) {
   h1 {
