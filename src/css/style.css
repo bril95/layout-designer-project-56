@@ -133,10 +133,10 @@ a {
   background-size: cover;
   height: 100%;
   width: 100%;
-  padding-bottom: 200px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  padding-bottom: 200px;
 }
 
 .page-description-content {
@@ -680,10 +680,10 @@ a {
   background-size: cover;
   height: 100%;
   width: 100%;
-  padding-bottom: 223px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  padding-bottom: 223px;
 }
 
 .artist-intro {
