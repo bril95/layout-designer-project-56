@@ -4,11 +4,10 @@
 
 .discography-container {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(4, 250px);
   grid-template-rows: repeat(2, auto);
   column-gap: 50px;
   row-gap: 25px;
-  justify-content: start;
 }
 
 .album {

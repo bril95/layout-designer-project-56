@@ -8,17 +8,16 @@
 
 .similar-container {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(4, 250px);
   grid-template-rows: repeat(2, auto);
   column-gap: 50px;
   row-gap: 25px;
-  justify-content: start;
 }
 
 .similar-img {
   width: 250px;
   height: 250px;
-  margin-bottom: 11px;
+  margin-bottom: 17px;
 }
 
 .similar-info {
