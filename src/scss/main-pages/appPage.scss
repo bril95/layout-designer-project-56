@@ -16,9 +16,9 @@
   }
 
   .app-img {
-    width: 333px;
-    height: 278px;
     margin: 0 auto;
+
+    @include set-size(333px, 278px);
   }
 
   .app-text:first-of-type {

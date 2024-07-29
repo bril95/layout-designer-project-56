@@ -33,9 +33,10 @@
 }
 
 .img-btn {
-  @include set-size(20px);
   margin-right: 16px;
   filter: invert(1);
+
+  @include set-size(20px);
 }
 
 @media (max-width: 414px) {
