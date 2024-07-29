@@ -81,7 +81,6 @@ a {
   margin: 0 auto;
   width: 1200px;
   padding-left: 20px;
-  border-right-width: 20px;
   padding-right: 20px;
   background-color: #08020D;
 }
@@ -134,14 +133,14 @@ a {
   background-size: cover;
   height: 100%;
   width: 100%;
-  padding-bottom: 200px;
+  padding-bottom: 220px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
 }
 
 .page-description-content {
-  max-width: 1200px;
+  width: 1200px;
   width: 100%;
   box-sizing: border-box;
 }
@@ -681,7 +680,7 @@ a {
   background-size: cover;
   height: 100%;
   width: 100%;
-  padding-bottom: 223px;
+  padding-bottom: 220px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -723,10 +722,10 @@ a {
 }
 
 .img-btn {
-  width: 20px;
-  height: 20px;
   margin-right: 16px;
   filter: invert(1);
+  width: 20px;
+  height: 20px;
 }
 
 @media (max-width: 414px) {
@@ -834,11 +833,6 @@ a {
 
 .similar-info {
   text-align: center;
-}
-
-.artist-title {
-  font-size: 18px;
-  font-weight: 700;
 }
 
 @media (max-width: 575px) {

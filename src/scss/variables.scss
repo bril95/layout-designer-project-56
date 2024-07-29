@@ -96,3 +96,15 @@ $desktop-img-size: 250px;
   width: $width;
   height: $height;
 }
+
+@mixin background-image-cover($path) {
+  background-image: url($path);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 220px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}

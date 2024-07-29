@@ -1,13 +1,5 @@
 .page-description-artist {
-  background-image: url('../images/Morten Harket.png');
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  padding-bottom: 223px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
+  @include background-image-cover('../images/Morten Harket.png');
 }
 
 .artist-intro {
@@ -23,7 +15,6 @@
 .artist-subscribers{
   color: $color-title;
   margin-top: 16px;
-
 }
 
 .mix-btn {
@@ -39,10 +30,10 @@
 }
 
 .img-btn {
-  width: 20px;
-  height: 20px;
   margin-right: 16px;
   filter: invert(1);
+
+  @include set-size(20px);
 }
 
 @media (max-width: 414px) {

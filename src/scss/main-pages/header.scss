@@ -1,17 +1,9 @@
 .page-description-main {
-  background-image: url('../images/banner.png');
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  padding-bottom: 200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
+  @include background-image-cover('../images/banner.png');
 }
 
 .page-description-content {
-  max-width: 1200px;
+  width: 1200px;
   width: 100%;
   box-sizing: border-box;
 }
@@ -37,8 +29,7 @@
 }
 
 .music-box-logo {
-  width: 24px;
-  height: 24px;
+  @include set-size(24px);
 }
 
 .menu {
